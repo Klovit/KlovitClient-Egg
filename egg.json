@@ -1,0 +1,31 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v2",
+        "update_url": null
+    },
+    "exported_at": "2022-06-01T07:58:52-04:00",
+    "name": "KlovitClient Egg",
+    "author": "dark@zexade.com",
+    "description": "A KlovitClient Egg, maintained by darknight81",
+    "features": null,
+    "docker_images": {
+        "KlovitClient-Egg": "quay.io/klovit/klovitclient-egg"
+    },
+    "file_denylist": [],
+    "startup": ".\/entrypoint.sh",
+    "config": {
+        "files": "{}",
+        "startup": "{\r\n    \"done\": \"[KlovitClient] Your KlovitClient instance is now listening on port\"\r\n}",
+        "logs": "{}",
+        "stop": "^C"
+    },
+    "scripts": {
+        "installation": {
+            "script": "#!\/bin\/bash\r\necho \"Hello\"",
+            "container": "node:16",
+            "entrypoint": "bash"
+        }
+    },
+    "variables": []
+}
