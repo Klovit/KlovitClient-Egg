@@ -17,7 +17,7 @@ else
         rm -rf /home/container/KlovitClient
 
         npm i > /dev/null 2>&1
-        echo "KlovitClient is now downloaded. Please configure settings.json Manually or proceed with Automatic Configuration.";
+        echo "KlovitClient is now downloaded. Please configure settings.json Manually";
         exit 0;
         ;;
     "N"|"n")
