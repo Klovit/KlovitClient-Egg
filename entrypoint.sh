@@ -25,6 +25,6 @@ else
         ;;
     *)
         exit 1;
-        ;:
+        ;;
     esac
 fi
