@@ -12,7 +12,7 @@ else
     "Y"|"y")
         echo "Installing KlovitClient...";
 
-        git clone --branch stable https://github.com/Klovit/KlovitClient.git /home/container/KlovitClient
+        git clone https://github.com/Klovit/KlovitClient.git /home/container/KlovitClient
         mv /home/container/KlovitClient/** /home/container
         rm -rf /home/container/KlovitClient
 
