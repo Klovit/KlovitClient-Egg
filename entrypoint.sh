@@ -1,3 +1,3 @@
 #! /bin/sh
 
-exec env /install.sh
+exec env ./install.sh
